@@ -6,7 +6,7 @@
 
 	<groupId>com.devops.microservices</groupId>
 	<artifactId>devops</artifactId>
-	<version>0.1.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
 	<name>devops</name>
@@ -37,12 +37,14 @@
 		</snapshotRepository>
 	</distributionManagement>
 
+
 	<scm>
 		<connection>scm:git:git@github.com:shivag17/devops.git</connection>
 		<developerConnection>scm:git:git@github.com:shivag17/devops.git</developerConnection>
 		<url>git@github.com:shivag17/devops.git</url>
 		<tag>HEAD</tag>
 	</scm>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
